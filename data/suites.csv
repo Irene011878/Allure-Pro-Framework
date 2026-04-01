@@ -1,5 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Wed Apr 01 05:16:12 UTC 2026","Wed Apr 01 05:16:12 UTC 2026","1","Automation Suite","UI Tests","ui.UITest","ui.UITest","testGoogle","testGoogle",""
-"skipped","Wed Apr 01 05:16:12 UTC 2026","Wed Apr 01 05:16:12 UTC 2026","1","Automation Suite","UI Tests","ui.UITest","ui.UITest","failTest","failTest",""
-"broken","Wed Apr 01 05:16:12 UTC 2026","Wed Apr 01 05:16:12 UTC 2026","5","Automation Suite","UI Tests","ui.UITest","ui.UITest","setUp","setUp",""
-"passed","Wed Apr 01 05:16:07 UTC 2026","Wed Apr 01 05:16:10 UTC 2026","2590","Automation Suite","API Tests","api.APITest","api.APITest","getUsers","getUsers",""
+"passed","Wed Apr 01 06:10:53 UTC 2026","Wed Apr 01 06:10:55 UTC 2026","1845","Automation Suite","API Tests","api.APITest","api.APITest","getUsers","getUsers",""
+"passed","Wed Apr 01 06:11:01 UTC 2026","Wed Apr 01 06:11:02 UTC 2026","501","Automation Suite","UI Tests","ui.UITest","ui.UITest","testGoogle","testGoogle",""
+"failed","Wed Apr 01 06:11:01 UTC 2026","Wed Apr 01 06:11:01 UTC 2026","93","Automation Suite","UI Tests","ui.UITest","ui.UITest","failTest","failTest",""

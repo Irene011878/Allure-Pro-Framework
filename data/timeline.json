@@ -4,65 +4,52 @@
   "children" : [ {
     "name" : "runnervmrg6be",
     "children" : [ {
-      "name" : "2237@runnervmrg6be.TestNG-tests-1(16)",
-      "children" : [ {
-        "name" : "failTest",
-        "uid" : "657bffe69f0b4450",
-        "parentUid" : "11f9762446610e24a5d41b2f816af13f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1775020572437,
-          "stop" : 1775020572438,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "setUp",
-        "uid" : "4e67b60d2b44356f",
-        "parentUid" : "11f9762446610e24a5d41b2f816af13f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1775020572413,
-          "stop" : 1775020572418,
-          "duration" : 5
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testGoogle",
-        "uid" : "b12d6ef0e9a33764",
-        "parentUid" : "11f9762446610e24a5d41b2f816af13f",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1775020572455,
-          "stop" : 1775020572456,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "11f9762446610e24a5d41b2f816af13f"
-    }, {
-      "name" : "2237@runnervmrg6be.TestNG-tests-2(17)",
+      "name" : "2433@runnervmrg6be.TestNG-tests-2(19)",
       "children" : [ {
         "name" : "getUsers",
-        "uid" : "7d5987cc1ae7cb82",
-        "parentUid" : "fccd7ea75ad19b08203ad079d491c20f",
+        "uid" : "9ea77bba10e7b424",
+        "parentUid" : "9b124f622544e0a15988da1d1ddeb6f6",
         "status" : "passed",
         "time" : {
-          "start" : 1775020567714,
-          "stop" : 1775020570304,
-          "duration" : 2590
+          "start" : 1775023853824,
+          "stop" : 1775023855669,
+          "duration" : 1845
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fccd7ea75ad19b08203ad079d491c20f"
+      "uid" : "9b124f622544e0a15988da1d1ddeb6f6"
+    }, {
+      "name" : "2433@runnervmrg6be.TestNG-tests-1(18)",
+      "children" : [ {
+        "name" : "testGoogle",
+        "uid" : "27c61abc79e6a9c1",
+        "parentUid" : "33bdaa4f939c7a5bc03ed7c45c77736e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1775023861968,
+          "stop" : 1775023862469,
+          "duration" : 501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "failTest",
+        "uid" : "682a3e29c5205061",
+        "parentUid" : "33bdaa4f939c7a5bc03ed7c45c77736e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1775023861542,
+          "stop" : 1775023861635,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33bdaa4f939c7a5bc03ed7c45c77736e"
     } ],
     "uid" : "09a4860a2d6a4ca721831c5b040a4edf"
   } ]
