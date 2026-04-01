@@ -27,14 +27,15 @@ jobs:
       - name: Run tests
         run: mvn clean test
 
+      - name: Generate report
+        run: mvn allure:report
+
       # copiar history
       - name: Copy history
         run: |
-          mkdir -p target/site/allure-maven-plugin/history
-          cp -r gh-pages/history/* target/site/allure-maven-plugin/history || true
+          cp -r gh-pages/history/ target/site/allure-maven-plugin/ || true
 
-      - name: Generate report
-        run: mvn allure:report
+  
 
       # deploy
       - name: Deploy
