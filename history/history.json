@@ -1,0 +1,81 @@
+{
+  "30324539c5511b60410b87f3452d760d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e67b60d2b44356f",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. \nHost info: host: 'runnervmrg6be', ip: '10.1.0.227'\nBuild info: version: '4.41.0', revision: '9fc754f'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '17.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /usr/bin/google-chrome, extensions: []}}]}]",
+      "time" : {
+        "start" : 1775020572413,
+        "stop" : 1775020572418,
+        "duration" : 5
+      }
+    } ]
+  },
+  "ae3191016cef11b85ab72f79bd4c4970" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d5987cc1ae7cb82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1775020567714,
+        "stop" : 1775020570304,
+        "duration" : 2590
+      }
+    } ]
+  },
+  "a1086b32a3979f5c85ffaa701a6a19bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "657bffe69f0b4450",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. \nHost info: host: 'runnervmrg6be', ip: '10.1.0.227'\nBuild info: version: '4.41.0', revision: '9fc754f'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '17.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /usr/bin/google-chrome, extensions: []}}]}]",
+      "time" : {
+        "start" : 1775020572437,
+        "stop" : 1775020572438,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9cba47c43597cd6e86f0feaeac21e1c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b12d6ef0e9a33764",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. \nHost info: host: 'runnervmrg6be', ip: '10.1.0.227'\nBuild info: version: '4.41.0', revision: '9fc754f'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1008-azure', java.version: '17.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /usr/bin/google-chrome, extensions: []}}]}]",
+      "time" : {
+        "start" : 1775020572455,
+        "stop" : 1775020572456,
+        "duration" : 1
+      }
+    } ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "API",
+    "children" : [ {
+      "name" : "getUsers",
+      "uid" : "7d5987cc1ae7cb82",
+      "parentUid" : "dabdcff99fa27c22cdaab8da3377f857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1775020567714,
+        "stop" : 1775020570304,
+        "duration" : 2590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dabdcff99fa27c22cdaab8da3377f857"
+  }, {
+    "name" : "setUp",
+    "uid" : "4e67b60d2b44356f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1775020572413,
+      "stop" : 1775020572418,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "failTest",
+    "uid" : "657bffe69f0b4450",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1775020572437,
+      "stop" : 1775020572438,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "UI",
+    "children" : [ {
+      "name" : "Google Title",
+      "children" : [ {
+        "name" : "testGoogle",
+        "uid" : "b12d6ef0e9a33764",
+        "parentUid" : "6cdd052bf7aa62379422c7469a73dcc2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1775020572455,
+          "stop" : 1775020572456,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cdd052bf7aa62379422c7469a73dcc2"
+    } ],
+    "uid" : "2a437c110576bbbc005c3de13baf9be0"
+  } ]
+}

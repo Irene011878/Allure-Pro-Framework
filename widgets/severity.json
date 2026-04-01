@@ -1,0 +1,41 @@
+[ {
+  "uid" : "4e67b60d2b44356f",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1775020572413,
+    "stop" : 1775020572418,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "657bffe69f0b4450",
+  "name" : "failTest",
+  "time" : {
+    "start" : 1775020572437,
+    "stop" : 1775020572438,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7d5987cc1ae7cb82",
+  "name" : "getUsers",
+  "time" : {
+    "start" : 1775020567714,
+    "stop" : 1775020570304,
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b12d6ef0e9a33764",
+  "name" : "testGoogle",
+  "time" : {
+    "start" : 1775020572455,
+    "stop" : 1775020572456,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
