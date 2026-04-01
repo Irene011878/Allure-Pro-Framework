@@ -1,0 +1,43 @@
+name: Allure Report with History
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # traer historial previo
+      - name: Get previous report
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Run tests
+        run: mvn clean test
+
+      # copiar history
+      - name: Copy history
+        run: |
+          mkdir -p target/site/allure-maven-plugin/history
+          cp -r gh-pages/history/* target/site/allure-maven-plugin/history || true
+
+      - name: Generate report
+        run: mvn allure:report
+
+      # deploy
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: target/site/allure-maven-plugin
