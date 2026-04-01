@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Change Generate report order in yaml file" />
+    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Continue on error True in tests, testing example porpuses" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775019711035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Continue on error True in tests, testing example porpuses">
+      <option name="closed" value="true" />
+      <created>1775020065527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775020065527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +133,7 @@
     <MESSAGE value="Test to run again the report" />
     <MESSAGE value="Change in yaml file: continue on error" />
     <MESSAGE value="Change Generate report order in yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Generate report order in yaml file" />
+    <MESSAGE value="Continue on error True in tests, testing example porpuses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue on error True in tests, testing example porpuses" />
   </component>
 </project>

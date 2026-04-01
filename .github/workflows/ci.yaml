@@ -4,6 +4,9 @@ on:
   push:
     branches: [ "main" ]
 
+permissions:
+  contents: write   # 🔥 ESTO SOLUCIONA EL 403
+
 jobs:
   test:
     runs-on: ubuntu-latest
