@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ScreenshotUtil {
 
-    /*public static String capture(String testName){
+    public static String capture(String testName){
 
         WebDriver driver = DriveManager.getDriver();
 
@@ -30,17 +30,6 @@ public class ScreenshotUtil {
             e.printStackTrace();
         }
         return path;
-    }*/
-    public static byte[] capture() {
-
-        WebDriver driver = DriveManager.getDriver();
-
-        // Esperar carga completa
-        new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(d -> ((JavascriptExecutor) d)
-                        .executeScript("return document.readyState").equals("complete"));
-
-        // Screenshot en memoria (NO archivo)
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
+
 }

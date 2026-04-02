@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Fix Chrome headless for CI">
+    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Fix to obtain screenshot image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" afterDir="false" />
     </list>
@@ -137,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775023695393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix to obtain screenshot image">
+      <option name="closed" value="true" />
+      <created>1775102809120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775102809120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +165,7 @@
     <MESSAGE value="Continue on error True in tests, testing example porpuses" />
     <MESSAGE value="Fix permissions for gh-pages deploy" />
     <MESSAGE value="Fix Chrome headless for CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Chrome headless for CI" />
+    <MESSAGE value="Fix to obtain screenshot image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix to obtain screenshot image" />
   </component>
 </project>

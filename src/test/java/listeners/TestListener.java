@@ -17,20 +17,16 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
 
-        /*String path = ScreenshotUtil.capture(result.getName());
+        String path = ScreenshotUtil.capture(result.getName());
 
         try {
             Allure.addAttachment(
                     "Screenshot",
                     new FileInputStream(path)
             );
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }*/
-        attachScreenshot();
-    }
-    @Attachment(value = "Screenshot", type = "image/png")
-    public byte[]attachScreenshot(){
-        return ScreenshotUtil.capture();
+        }
+
     }
 }
