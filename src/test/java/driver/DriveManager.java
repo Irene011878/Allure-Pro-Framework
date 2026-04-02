@@ -21,6 +21,7 @@ public class DriveManager {
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--window-size=1920,1080");
+            options.addArguments("--start-maximized");
         }
         driver.set(new ChromeDriver(options));
     }

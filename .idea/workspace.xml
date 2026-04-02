@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Fix permissions for gh-pages deploy">
+    <list default="true" id="7ee17639-fec6-49c7-8b85-9c9e52ebeaea" name="Changes" comment="Fix Chrome headless for CI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriveManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +54,12 @@
     "TestNG.C:/Users/irene/IdeaProjects/Allure-Pro-Framework/testng.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/irene/IdeaProjects/Allure-Pro-Framework/target"
+    "last_opened_file_path": "C:/Users/irene/IdeaProjects/Allure-Pro-Framework/target/allure-results"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\Allure-Pro-Framework\target\allure-results" />
       <recent name="C:\Users\irene\IdeaProjects\Allure-Pro-Framework\target" />
     </key>
   </component>
@@ -126,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775020509230</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix Chrome headless for CI">
+      <option name="closed" value="true" />
+      <created>1775023695393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775023695393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +157,7 @@
     <MESSAGE value="Change Generate report order in yaml file" />
     <MESSAGE value="Continue on error True in tests, testing example porpuses" />
     <MESSAGE value="Fix permissions for gh-pages deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix permissions for gh-pages deploy" />
+    <MESSAGE value="Fix Chrome headless for CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Chrome headless for CI" />
   </component>
 </project>
