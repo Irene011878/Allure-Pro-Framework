@@ -1,12 +1,12 @@
 {
-  "uid" : "bf37409280a4f86c",
+  "uid" : "43b083c04b0a2840",
   "name" : "testGoogle",
   "fullName" : "ui.UITest.testGoogle",
   "historyId" : "9cba47c43597cd6e86f0feaeac21e1c4",
   "time" : {
-    "start" : 1775102848216,
-    "stop" : 1775102848606,
-    "duration" : 390
+    "start" : 1775106680562,
+    "stop" : 1775106681127,
+    "duration" : 565
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1775102847902,
-      "stop" : 1775102848213,
-      "duration" : 311
+      "start" : 1775106680230,
+      "stop" : 1775106680557,
+      "duration" : 327
     },
     "description" : "",
     "status" : "passed",
@@ -31,9 +31,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1775102848607,
-      "stop" : 1775102848679,
-      "duration" : 72
+      "start" : 1775106681129,
+      "stop" : 1775106681200,
+      "duration" : 71
     },
     "description" : "",
     "status" : "passed",
@@ -68,7 +68,7 @@
     "value" : "runnervmrg6be"
   }, {
     "name" : "thread",
-    "value" : "2466@runnervmrg6be.TestNG-tests-1(18)"
+    "value" : "2566@runnervmrg6be.TestNG-tests-1(18)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bf37409280a4f86c.json",
+  "source" : "43b083c04b0a2840.json",
   "parameterValues" : [ ]
 }

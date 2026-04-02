@@ -1,12 +1,12 @@
 {
-  "uid" : "199722a0ea5625fb",
+  "uid" : "b2db7bdaa313fccb",
   "name" : "getUsers",
   "fullName" : "api.APITest.getUsers",
   "historyId" : "ae3191016cef11b85ab72f79bd4c4970",
   "time" : {
-    "start" : 1775102845692,
-    "stop" : 1775102847586,
-    "duration" : 1894
+    "start" : 1775106673343,
+    "stop" : 1775106675005,
+    "duration" : 1662
   },
   "status" : "passed",
   "flaky" : false,
@@ -36,7 +36,7 @@
     "value" : "runnervmrg6be"
   }, {
     "name" : "thread",
-    "value" : "2466@runnervmrg6be.TestNG-tests-2(19)"
+    "value" : "2566@runnervmrg6be.TestNG-tests-2(19)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "199722a0ea5625fb.json",
+  "source" : "b2db7bdaa313fccb.json",
   "parameterValues" : [ ]
 }
